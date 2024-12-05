@@ -18,7 +18,7 @@ class ListPage extends StatelessWidget {
       body: Obx(
         () {
           if (controller.isLoading.value) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(child: LoadingWidget());
           }
 
           return ListView.builder(
