@@ -20,7 +20,7 @@ class DetailContentWidget extends StatelessWidget {
             child: Text(
               title,
               style: TextStyle(
-                color: Colors.grey.shade600, // Perbaikan pada warna
+                color: Colors.grey.shade600,
                 fontSize: 15,
                 fontWeight: FontWeight.bold,
               ),

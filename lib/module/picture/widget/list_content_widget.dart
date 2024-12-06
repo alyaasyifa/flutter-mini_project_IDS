@@ -5,10 +5,10 @@ class ListContentWidget extends StatelessWidget {
   final String author;
 
   const ListContentWidget({
-    Key? key,
+    super.key,
     required this.imageUrl,
     required this.author,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
